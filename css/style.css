@@ -2,7 +2,11 @@
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --main-color: #212121;
-    --secondary-color: #757575
+    --secondary-color: #757575;
+    --third-color:#FFFFFF;
+    --fourth-color:#2196F3;
+    --fifth-color: #757575;
+    --sixth-color: #2F303A;
 }
 body {
     font-family: var(--main-font);
@@ -22,7 +26,7 @@ body {
      
 }
 .studio {
-    color:#2196F3;
+    color:var(--fourth-color);
 }
 
 .navigation-list,  
@@ -41,7 +45,7 @@ body {
 .navigation-link:focus,
 .contact-item:hover,
 .contact-item:focus{
-    color:#2196F3;
+    color:var(--fourth-color);
 
 }
 .contact-item {
@@ -68,12 +72,12 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;    
-    color: #FFFFFF;
+    color: var(--third-color);
 
     }
 
 .hero {
-        background-color: #2F303A;
+        background-color: var(--sixth-color);
 }
 .modal-btn:focus,
 .modal-btn:hover {
@@ -83,13 +87,13 @@ body {
     width: 200px;
     height: 50px;
     border-radius: 4px;
-    background-color: #2196F3;
+    background-color: var(--fourth-color);
     box-shadow: rgba(0, 0, 0, 0.15);
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     fill: solid;
-    color: #FFFFFF;
+    color: var(--third-color);
     cursor: pointer;
     
 }
@@ -139,8 +143,8 @@ body {
 /*===FOOTER===*/
 
 .footer {
-    background-color: #2F303A;
-    color:white;
+    background-color: var(--sixth-color);
+    color:var(--third-color);
 }
 
 .footer-logo {
@@ -150,7 +154,7 @@ body {
     line-height: 1.192;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: white;   
+    color: var(--third-color);   
 }
     
 
@@ -171,7 +175,7 @@ body {
 .footer-address:focus,
 .footer-contacts:hover,
 .footer-contacts:focus {
-    color:#2196F3
+    color:var(--fourth-color)
 }
 
 
@@ -185,7 +189,7 @@ body {
     height: 38px;
     left: 510px;
     top: 174px;
-    background: #FFFFFF;
+    background: var(--third-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     font-style: normal;
@@ -198,8 +202,8 @@ body {
 }
 .filter-btn:hover,
 .filter-btn:focus {
-    color: #FFFFFF;
-    background: #2196F3
+    color: var(--third-color);
+    background: var(--fourth-color)
 }
 
 .table-title {
@@ -213,6 +217,6 @@ body {
 font-size: 16px;
 line-height: 1,875;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--secondary-color);
 }
 /*=== END PORTFOLIO*===*/
