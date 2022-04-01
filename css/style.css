@@ -10,7 +10,7 @@
 }
 body {
     font-family: var(--main-font);
-    background-color: #FFFFFF;
+    background-color: var(--third-color);
 }
 
 /*===HEADER===*/
